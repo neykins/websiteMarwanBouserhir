@@ -1,264 +1,275 @@
 <!DOCTYPE html>
-    <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="fr">
 
-        <link rel="shortcut icon" href="assets/img/unnamed.png" type="image/x-icon">
-        
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/unnamed.png" type="image/x-icon">
 
-        <title>Portfolio - Neykins</title>
-    </head>
-    <body>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <header class="profile container">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-            <i class="ri-moon-line change-theme" id="theme-button"></i>
+    <title>CV - MARWAN</title>
+</head>
 
-            <div class="profile__container grid">
-                <div class="profile__data">
-                    <div class="profile__border">
-                        <div class="profile__perfil">
+<body>
 
-                            <img src="assets/img/unnamed.png" alt="">
+    <header class="profile container">
+
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+
+                        <img src="assets/img/marwan_pp.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Marwan "Neykins" Bouserhir</h2>
+                <h3 class="profile__profession">Développeur Web Frontend Junior</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.linkedin.com/in/marwan-bouserhir-103531225/" target="_blank"
+                        class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/neykins" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1ère</h3>
+                    <p class="profile__info-description">
+                        Année <br> scolaire
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">EFP & School 19</h3>
+                    <p class="profile__info-description">
+                        Etudiant
+                    </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+
+                <a download="" href="assets/pdf/CV-MARWAN-BOUSERHIR.pdf" class="button">
+                    CV <i class="ri-download-line"></i>
+                </a>
+
+                <a download="" href="assets/pdf/LETTRE-DE-MOTIVATION-M-BOUSERHIR.pdf" class="button">
+                    Lettre de Motivation <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+
+                    <a href="https://api.whatsapp.com/send?phone=0470624104&text=Salut,c'est Marwan, envoyez moi un message, je réponds vite !"
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <section class="filters container">
+
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">
+                    Projets
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Compétences
+                </button>
+            </ul>
+
+            <div class="filters__sections">
+
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+
+                        <img src="assets/img/Projet1.JPG" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Dev Web</span>
+                                <h3 class="projects__title">Card (FORM)</h3>
+                                <a href="https://github.com/neykins/Card_form"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/Projet2.JPG" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Dev Web</span>
+                                <h3 class="projects__title">projet calculatrice</h3>
+                                <a href="https://github.com/neykins/projet_calculatrice"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/Projet3.JPG" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Dev Web</span>
+                                <h3 class="projects__title">Website_Menu (Pas publié sur Github)</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Excellent</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Excellent</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Bon</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">React</h3>
+                                        <span class="skills__level">Bon</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Bootstrap</h3>
+                                        <span class="skills__level">Très Bon</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Excellent</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <h2 class="profile__name">Marwan "Neykins" Bouserhir</h2>
-                    <h3 class="profile__profession">Développeur Web Junior</h3>
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend</h3>
 
-                    <ul class="profile__social">
-                        <a href="https://www.linkedin.com/in/marwan-bouserhir-103531225/" target="_blank" class="profile__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                        <a href="https://github.com/neykins" target="_blank" class="profile__social-link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                    </ul>
-                </div>
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
 
-                <div class="profile__info grid">
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">1ère</h3>
-                        <p class="profile__info-description">
-                            Année <br> scolaire
-                        </p>
-                    </div>
-                    <div class="profile__info-group">
-                        <h3 class="profile__info-number">EFP & School 19</h3>
-                        <p class="profile__info-description">
-                            Etudiant 
-                        </p>
-                    </div>
-                </div>
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Bon</span>
+                                    </div>
+                                </div>
 
-                <div class="profile__buttons">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
 
-                    <a download="" href="assets/pdf/CV-MARWAN-BOUSERHIR.pdf" class="button">
-                        Download CV <i class="ri-download-line"></i>
-                    </a>
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Bon</span>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div class="profile__buttons-small">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
 
-                        <a href="https://api.whatsapp.com/send?phone=0470624104&text=Salut,c'est Marwan, envoyez moi un message, je réponds vite !" target="_blank" class="button button__small button__gray">
-                            <i class="ri-whatsapp-line"></i>
-                        </a>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Moyen</span>
+                                    </div>
+                                </div>
 
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Node Js</h3>
+                                        <span class="skills__level">Moyen</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+    </main>
 
- 
-        <main class="main">
-            <section class="filters container">
- 
-                <ul class="filters__content">
-                    <button class="filters__button filter-tab-active" data-target="#projects">
-                        Projets
-                    </button>
-                    <button class="filters__button" data-target="#skills">
-                        Compétences
-                    </button>
-                </ul>
 
-                <div class="filters__sections">
-           
-                    <div class="projects__content grid filters__active" data-content id="projects">
-                        <article class="projects__card">
-                         
-                            <img src="assets/img/Projet1.JPG" alt="" class="projects__img">
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Neykins
+        </span>
+    </footer>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Dev Web</span>
-                                    <h3 class="projects__title">Card (FORM)</h3>
-                                    <a href="https://github.com/neykins/Card_form" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
 
-                        <article class="projects__card">
-                            <img src="assets/img/Projet2.JPG" alt="" class="projects__img">
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Dev Web</span>
-                                    <h3 class="projects__title">projet calculatrice</h3>
-                                    <a href="https://github.com/neykins/projet_calculatrice" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
 
-                        <article class="projects__card">
-                            <img src="assets/img/Projet3.JPG" alt="" class="projects__img">
+    <script src="assets/js/main.js"></script>
+</body>
 
-                            <div class="projects__modal">
-                                <div>
-                                    <span class="projects__subtitle">Dev Web</span>
-                                    <h3 class="projects__title">Website_Menu (Pas publié sur Github)</h3>
-                                    <a href="#" class="projects__button button button__small">
-                                        <i class="ri-link"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                 
-                    <div class="skills__content grid" data-content id="skills">
-                        <div class="skills__area">
-                            <h3 class="skills__title">Frontend Developer</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">HTML</h3>
-                                            <span class="skills__level">Excellent</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">CSS</h3>
-                                            <span class="skills__level">Excellent</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">JavaScript</h3>
-                                            <span class="skills__level">Bon</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">React</h3>
-                                            <span class="skills__level">Débutant</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Bootstrap</h3>
-                                            <span class="skills__level">Bon</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Git</h3>
-                                            <span class="skills__level">Excellent</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="skills__area">
-                            <h3 class="skills__title">Backend Developer</h3>
-    
-                            <div class="skills__box">
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">PHP</h3>
-                                            <span class="skills__level">Très bon</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">MySQL</h3>
-                                            <span class="skills__level">Bon</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="skills__group">
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Python</h3>
-                                            <span class="skills__level">Normal</span>
-                                        </div>
-                                    </div>
-        
-                                    <div class="skills__data">
-                                        <i class="ri-checkbox-circle-line"></i>
-        
-                                        <div>
-                                            <h3 class="skills__name">Node Js</h3>
-                                            <span class="skills__level">Moyen</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        
-        <footer class="footer container">
-            <span class="footer__copy">
-                &#169; Neykins
-            </span>
-        </footer>
-
-       
-        <script src="assets/js/scrollreveal.min.js"></script>
-
-       
-        <script src="assets/js/main.js"></script>
-    </body>
 </html>
